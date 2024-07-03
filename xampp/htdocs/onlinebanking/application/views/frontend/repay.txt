@@ -1,0 +1,4 @@
+<div class="col-sm-4">
+							<a href="<?php echo base_url().'Welcome/re_payment'; ?>" class="btn btn-warning btn-block">Re-payment</a>
+							<p>Click the above button to navigate to re-payment</p>
+						</div>	

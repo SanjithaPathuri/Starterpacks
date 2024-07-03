@@ -1,0 +1,159 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+/*******************
+SELECTION STYLING
+*******************/
+::selection {
+	color: #fff;
+	background: #f676b2; /* Safari */
+}
+::-moz-selection {
+	color: #fff;
+	background: #f676b2; /* Firefox */
+}
+
+/*******************
+BODY STYLING
+*******************/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+body {
+	  font-size: 13px;
+	   background-color: #f1f3f6;
+	   font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+	/* Center wrapper perfectly */
+	width: 300px;
+	height: 400px;
+	margin: 70px auto;
+}
+
+
+
+/*******************
+LOGIN FORM
+*******************/
+
+.login-form {
+	width: 300px;
+	margin: 0 auto;
+	position: relative;
+	background: #fff;
+    border: 1px #CCC solid;
+}
+
+/*******************
+HEADER
+*******************/
+.login-form .header {
+	padding: 0px 30px 20px 30px;
+	/*background:#fff;*/
+}
+
+.login-form .header h1 {
+	font-size: 24px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.login-form .header span {
+	color: #A6A9AF;
+}
+
+/*******************
+CONTENT
+*******************/
+
+.login-form .content {
+	    padding: 0 30px 0px 30px;
+	/*background:#fff;*/
+}
+
+/* Input field */
+.login-form .content .input {
+	width: 100%;
+	font-size: 14px;
+	color: #9d9e9e;
+	background: #fff;
+}
+
+/* Second input field */
+.login-form .content .password, .login-form .content .pass-icon {
+	margin-top: 25px;
+}
+
+.user-icon, .pass-icon {
+	    width: 34px;
+    height: 34px;
+    display: block;
+    position: absolute;
+    left: -34px;
+    padding-right: 2px;
+    z-index: 1;
+    text-align: center;
+    line-height: 34px;
+    background: #fff;
+    color: #575D5D;
+    font-size: 16px;
+    border:1px #CCC solid;
+    border-right: 0px;
+}
+
+.user-icon {
+	top:183px; /* Positioning fix for slide-in, got lazy to think up of simpler method. */
+}
+
+.pass-icon {
+	top:217px;
+}
+
+.content input:focus + div{
+       color: #0EAFF0;
+}
+
+/* Animation */
+.input, .user-icon, .pass-icon, .button, .register {
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+}
+
+.content-forgot-password{
+	margin-bottom:20px;
+	}
+/*******************
+FOOTER
+*******************/
+.footer{
+	/*background:#fff;*/
+	padding: 20px 30px;
+	border-top:1px #ECE7E7 solid;
+	}
+	
+	.avantgarde-logo{
+	width: 100%;
+	display: block;
+	padding: 10px 30px;
+	/*background: #FFF;*/
+	
+	}
+	.fotgot_password{
+	padding: 10px 0px;
+	display: block;
+	text-align:right;
+	}
+	
+		.fotgot_password a {
+			cursor:pointer;
+		}

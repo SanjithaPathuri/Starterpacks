@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <title>
+            FINAL My Class Inventory
+        </title>
+    </head>
+    <body>
+        <p><i><b>School: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class: </b></i></p>        
+        <h3><center>My Class Inventory</center></h3>
+        <p><b>Directions:</b></p>
+        <ul>
+            <li>This is not a test. This is to find out about your class. Draw a circle around:</li>
+            <ul>
+                <li><b>Yes</b> if you AGREE with the sentence</li>
+                <li><b>No</b> if you DONʼT AGREE with the sentence.</li>
+            </ul>
+            <li>If you change your mind about a response, cross it out and circle the new response.</li>
+            <li> Respond to the statements as your classroom actually is.</li>
+        </ul>
+        <p align="center">
+        <form action="classFormEval.php" method="POST">
+            <table width="60%">
+            <b>Enter student ID:</b> <input type="text" name="id" value=""/><br>
+            <tr><input type="radio" name="Assessment" value="Eval1"> Evaluation 1
+            <input type="radio" name="Assessment" value="Eval2"> Evaluation 2</tr><br>
+                <tr>
+                    <td><b>Is How I Think About My Classroom</b></td>
+                    <td><b>Select your answer</b></td>
+                </tr>
+                <tr>
+                    <td>1. Students enjoy their schoolwork in my class</td>
+                    <td><input type="radio" name="q1" value="Yes">Yes
+                        <input type="radio" name="q1" value="No">No</td>
+                    <td>
+                </tr>
+                <tr>
+                    <td>2. Students are always fighting with each other</td>
+                    <td><input type="radio" name="q2" value="Yes">Yes
+                        <input type="radio" name="q2" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>3. Students often race to see who can finish first</td>
+                    <td><input type="radio" name="q3" value="Yes">Yes
+                        <input type="radio" name="q3" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>4. In our class the work is hard to do</td>
+                    <td><input type="radio" name="q4" value="Yes">Yes
+                        <input type="radio" name="q4" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>5. In my class everyone is my friend</td>
+                    <td><input type="radio" name="q5" value="Yes">Yes
+                        <input type="radio" name="q5" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>6. Some students are not happy in class<b>(R)</b></td>
+                    <td><input type="radio" name="q6" value="No">Yes
+                        <input type="radio" name="q6" value="Yes">No</td>
+                </tr>
+                <tr>
+                    <td>7. Some of the students in our class are mean</td>
+                    <td><input type="radio" name="q7" value="Yes">Yes
+                        <input type="radio" name="q7" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>8. Most students want their work to be better than their friends&apos; work</td>
+                    <td><input type="radio" name="q8" value="Yes">Yes
+                        <input type="radio" name="q8" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>9. Most students can do their schoolwork without help<b>(R)</b></td>
+                    <td><input type="radio" name="q9" value="No">Yes
+                        <input type="radio" name="q9" value="Yes">No</td>
+                </tr>
+                <tr>
+                    <td>10. Some people in my class are not my friends<b>(R)</b></td>
+                    <td><input type="radio" name="q10" value="No">Yes
+                        <input type="radio" name="q10" value="Yes">No</td>
+                </tr>
+                <tr>
+                    <td>11. Students seem to like the class</td>
+                    <td><input type="radio" name="q11" value="Yes">Yes
+                        <input type="radio" name="q11" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>12. Many students in our class like to fight</td>
+                    <td><input type="radio" name="q12" value="Yes">Yes
+                        <input type="radio" name="q12" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>13. Some students feel bad when they don&apos;t do as well as the others</td>
+                    <td><input type="radio" name="q13" value="Yes">Yes
+                        <input type="radio" name="q13" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>14. Only the smarter students can do their work</td>
+                    <td><input type="radio" name="q14" value="Yes">Yes
+                        <input type="radio" name="q14" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>15. All students in my class are close friends</td>
+                    <td><input type="radio" name="q15" value="Yes">Yes
+                        <input type="radio" name="q15" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>16. Some of the students do not like the class <b>(R)</b></td>
+                    <td><input type="radio" name="q16" value="No">Yes
+                        <input type="radio" name="q16" value="Yes">No</td>
+                </tr>
+                <tr>
+                    <td>17. Certain students always want to have their way</td>
+                    <td><input type="radio" name="q17" value="Yes">Yes
+                        <input type="radio" name="q17" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>18. Some students always try to do their work better than the others</td>
+                    <td><input type="radio" name="q18" value="Yes">Yes
+                        <input type="radio" name="q18" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>19. Schoolwork is hard to do</td>
+                    <td><input type="radio" name="q19" value="Yes">Yes
+                        <input type="radio" name="q19" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>20. All of the students in my class like each other</td>
+                    <td><input type="radio" name="q20" value="Yes">Yes
+                        <input type="radio" name="q20" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>21. This class is fun</td>
+                    <td><input type="radio" name="q21" value="Yes">Yes
+                        <input type="radio" name="q21" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>22. Students in our class fight a lot</td>
+                    <td><input type="radio" name="q22" value="Yes">Yes
+                        <input type="radio" name="q22" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>23. A few students in my class want to be first all the time</td>
+                    <td><input type="radio" name="q23" value="Yes">Yes
+                        <input type="radio" name="q23" value="No">No</td>
+                </tr>
+                <tr>
+                    <td>24. Most of the students in my class know how to do their work <b>(R)</b></td>
+                    <td><input type="radio" name="q24" value="No">Yes
+                        <input type="radio" name="q24" value="Yes">No</td>
+                </tr>
+                <tr>
+                    <td>25. Students in our class like each other as friends</td>
+                    <td><input type="radio" name="q25" value="Yes">Yes
+                        <input type="radio" name="q25" value="No">No</td>
+                </tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                    <tr></tr>
+                <tr><td colspan="2"><p align="center"><input type="submit"></p></td></tr>
+            </table>
+        </form>
+        </p>
+    </body>
+</html>
+ 

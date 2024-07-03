@@ -1,0 +1,73 @@
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+void main()
+{
+   char s[10],ch[10],c[10];
+   int i=0;
+   clrscr();
+   printf("enter the string:");
+   gets(s);
+   printf("token\t\tlexeme\n");
+   while(s[i]!='\0')
+   {
+       if(s[i]=='+'||s[i]=='-'||s[i]=='*'||s[i]=='/'||s[i]=='%')
+       {
+	  printf("operator\t%c\n",s[i]);
+	  i++;
+       }
+       else if(s[i]==','||s[i]=='.'||s[i]==';'||s[i]==':'||s[i]=='"')
+       {
+	  printf("punctuation\t%c\n",s[i]);
+	  i++;
+       }
+       else if(s[i]==' ')
+       {
+	  printf("space\t%c\n",s[i]);
+	  i++;
+       }
+       else if(isalpha(s[i]))
+       {
+	  int j=0;
+	  ch[j]=s[i];
+	  i++;
+	  j++;
+	  while(isalpha(s[i]))
+	  {
+	     ch[j]=s[i];
+	     i++;
+	     j++;
+	  }
+	  ch[j]='\0';
+	  if((!strcmp(ch,"int")||!strcmp(ch,"char")||!strcmp(ch,"float")||!strcmp(ch,"boolean")))
+	  {
+	     printf("keyword\t%s\n",ch);
+	  }
+	  else
+	  {
+	     printf("identifier\t%s\n",ch);
+	  }
+       }
+       else if(isdigit(s[i]))
+       {
+	  int j=0;
+	  c[j]=s[i];
+	  i++;
+	  j++;
+	  while(isdigit(s[i])||s[i]=='.')
+	  {
+	     c[j]=s[i];
+	     i++;
+	     j++;
+	  }
+	  c[j]='\0';
+	  printf("digit\t%s\n",c);
+       }
+       else
+       {
+	  printf("special char\t%c\n",s[i]);
+	  i++;
+       }
+   }
+   getch();
+}

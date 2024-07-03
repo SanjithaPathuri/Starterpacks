@@ -1,0 +1,76 @@
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+void main()
+{
+   FILE *f1;
+   char c,ch[10],x[10];
+   int i;
+   clrscr();
+   printf("enter the string:");
+   f1=fopen("input","w");
+   while((c=getchar())!=EOF)
+   {
+      putc(c,f1);
+   }
+   fclose(f1);
+   printf("token\t\tlexeme");
+   f1=fopen("input","r");
+   c=getc(f1);
+   while(c!=EOF)
+   {
+       if(c=='+'||c=='-'||c=='*'||c=='/'||c=='%')
+       {
+	  printf("\noperator\t%c",c);
+	  c=getc(f1);
+       }
+       else if(ispunct(c))
+       {
+	  printf("\npunctuation\t%c",c);
+	  c=getc(f1);
+       }
+       else if(isspace(c))
+       {
+	  printf("\nspace\t%c",c);
+	  c=getc(f1);
+       }
+       else if(isalpha(c))
+       {
+	  i=0;
+	  while(isalpha(c))
+	  {
+	     ch[i]=c;
+	     i++;
+	     c=getc(f1);
+	  }
+	  ch[i]='\0';
+	  if((!strcmp(ch,"int")||!strcmp(ch,"char")||!strcmp(ch,"float")||!strcmp(ch,"boolean")))
+	  {
+	     printf("\nkeyword\t%s",ch);
+	  }
+	  else
+	  {
+	     printf("\nidentifier\t%s",ch);
+	  }
+       }
+       else if(isdigit(c))
+       {
+	  i=0;
+	  while(isdigit(c)||c=='.')
+	  {
+	     x[i]=c;
+	     i++;
+	     c=getc(f1);
+	  }
+	  x[i]='\0';
+	  printf("\ndigit\t%s",x);
+       }
+       else
+       {
+	  printf("\nspecial char\t%c",c);
+	  c=getc(f1);
+       }
+   }
+   fclose(f1);
+   getch();
+}

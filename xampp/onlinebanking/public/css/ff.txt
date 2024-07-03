@@ -1,0 +1,13 @@
+http://demo.magentech.com/themes/sm_atom/?___store=argentina&___from_store=default/
+
+http://demo.emthemes.com/supertheme/index.php/?___store=default
+
+http://jsfiddle.net/lesson8/85dV6/light/
+
+
+http://silviomoreto.github.io/bootstrap-select/
+
+
+http://www.egrappler.com/edmin/index.html
+
+http://localhost/ligertechservices/web_analytics.php#carousel-example-generic

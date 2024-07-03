@@ -1,0 +1,92 @@
+/*
+ * metismenu - v1.1.2
+ * Easy menu jQuery plugin for Twitter Bootstrap 3
+ * https://github.com/onokumus/metisMenu
+ *
+ * Made by Osman Nuri Okumus
+ * Under MIT License
+ */
+.arrow {
+  float: right;
+  line-height: 1.42857;
+  /* twitter bootstrap body element line-height */
+}
+.glyphicon.arrow:before {
+  content: "\e079";
+}
+.active > a > .glyphicon.arrow:before {
+  content: "\e114";
+}
+/*
+ * Require Font-Awesome
+ * http://fortawesome.github.io/Font-Awesome/
+*/
+
+.fa.arrow:before {
+  content: "\f104";
+}
+.active > a > span > .fa.arrow:before {
+  content: "\f107";
+}
+.plus-times {
+  float: right;
+}
+.fa.plus-times:before {
+  content: "\f067";
+}
+.active > a > .fa.plus-times {
+  filter: progid: DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.plus-minus {
+  float: right;
+}
+.fa.plus-minus:before {
+  content: "\f067";
+}
+.active > a > .fa.plus-minus:before {
+  content: "\f068";
+}
+span.menu-text{
+	padding-left: 10px;
+	}
+.sidebar-collapsed{
+	width:40px;
+	}
+.sidebar.sidebar-collapsed #side-menu>li>a span.menu-text{
+    display: none;
+}
+.sidebar.sidebar-collapsed #side-menu>li:hover>a{
+	border-top:0px solid #045E80;
+	}
+
+.sidebar.sidebar-collapsed #side-menu>li:hover>a{
+    display: block;
+    position: relative;
+    width: 270px;
+    overflow: hidden;
+	background-color: #b44057;
+	border-right: 1px solid #a7334a;
+}
+.sidebar.sidebar-collapsed #side-menu li .nav-second-level li a{
+	padding: 15px 20px;
+	}
+
+.sidebar.sidebar-collapsed #side-menu>li:hover>a span.menu-text{
+    display: inline-block;
+}
+.sidebar.sidebar-collapsed #side-menu>li>ul{ display:none;}
+.sidebar.sidebar-collapsed #side-menu li:hover>ul.collapse{ 
+	display:block;
+	background-color: #027BA9;
+    width: 220px;
+    position: absolute;
+    left: 50px;
+	height: auto !important;
+	border-right: 1px solid #e4e5e7;
+	}
+.sidebar.sidebar-collapsed #side-menu li ul.collapse li ul.collapse{ left:0px; background-color: #027BA9;}

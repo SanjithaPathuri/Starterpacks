@@ -1,0 +1,187 @@
+.multiselect-container {
+	position: absolute;
+	list-style-type: none;
+	margin: 0;
+	padding: 0
+}
+.multiselect-container .input-group {
+	margin: 5px
+}
+.multiselect-container>li {
+	padding: 0
+}
+.multiselect-container>li>a.multiselect-all label {
+	font-weight: 700
+}
+.multiselect-container>li.multiselect-group label {
+	margin: 0;
+	padding: 3px 20px 3px 40px;
+	height: 100%;
+	font-weight: 700
+}
+.multiselect-container>li.multiselect-group-clickable label {
+	cursor: pointer
+}
+.multiselect-container>li>a {
+	padding: 0
+}
+.multiselect-container>li>a>label {
+	margin: 0;
+	height: 100%;
+	cursor: pointer;
+	font-weight: 400;
+	padding: 3px 20px 3px 26px
+}
+.multiselect-container>li>a>label.radio, .multiselect-container>li>a>label.checkbox {
+	margin: 0
+}
+.multiselect-container>li>a>label>input[type=checkbox] {
+	margin-bottom: 5px
+}
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px
+}
+.form-inline .multiselect-container label.checkbox, .form-inline .multiselect-container label.radio {
+	padding: 3px 20px 3px 40px
+}
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox], .form-inline .multiselect-container li a label.radio input[type=radio] {
+	margin-left: -20px;
+	margin-right: 0
+}
+.chk .multiselect-container input[type="checkbox"] {
+    display: block;
+}
+.dropdown-menu{
+	width:100%;
+}
+.multiselect{
+	text-align:left;
+	width:100%;
+	-webkit-touch-callout: none;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.5, #fff));
+    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 50%);
+    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#eeeeee', GradientType = 0);
+    background-image: linear-gradient(to top, #eee 0%, #fff 50%);
+}
+
+
+.btn-group{
+	width:100%;}
+.btn-group.open .dropdown-toggle{
+	background:#eeeeee!important;
+}
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{
+	background:#eeeeee!important;}
+.btn-group.open .dropdown-toggle{
+	 box-shadow: none;
+}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus{
+	background:#eeeeee!important;
+	}	
+	
+.form-control.multiselect-search {
+    height: 28px !important;
+}
+
+.btn.btn-default.multiselect-clear-filter {
+    height:28px !important;
+}
+
+.input-group-addon{
+	 padding: 4px 12px !important;
+}
+.multiselect-container.dropdown-menu {
+  background: #fff none repeat scroll 0 0;
+    height: 140px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0 0 0 4px;
+	border-left: 1px solid #5897fb;
+	border-right: 1px solid #5897fb;
+		border-bottom: 1px solid #5897fb;
+	
+ 
+}
+
+
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background: #fff none repeat scroll 0 0 !important;
+}
+
+.multiselect-container > li > a > label {
+    color: #000 !important;
+	font-size:13px !important;
+background:#fff !important;
+}
+.cls-hdgn{
+	margin-top:0px;
+}
+.gn ul{
+	padding:0;
+	margin:0;
+}
+.gn li{
+	width:100%;
+	float:left;
+	padding:4px 0px;
+	margin-left: 30px;
+	list-style-type:circle;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+	vertical-align:none;
+}
+
+.navbar-nav.navbar-right .caret {
+    float: none;
+    margin: 0;
+}
+.caret{
+    float: right;
+    margin-top: -12px;
+    text-align: right;
+}
+.heading-actions .btn-group .btn-default.dropdown-toggle .caret {
+    float: none;
+    margin-top: 0;
+}
+.select2-container .select2-choice .select2-arrow {
+    background: #ccc linear-gradient(to top, #ccc 0%, #eee 60%) repeat scroll 0 0;
+    border-left: 1px solid #aaa;
+    border-radius: 0;
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 18px;
+}
+
+.btn-default:hover{
+	
+	-webkit-touch-callout: none;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eee), color-stop(0.5, #fff));
+    background-image: -webkit-linear-gradient(center bottom, #eee 0%, #fff 50%);
+    background-image: -moz-linear-gradient(center bottom, #eee 0%, #fff 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#ffffff', endColorstr = '#eeeeee', GradientType = 0);
+    background-image: linear-gradient(to top, #eee 0%, #fff 50%);
+}
+
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    background: #fff none repeat scroll 0 0 !important;
+}
+
+

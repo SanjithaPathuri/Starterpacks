@@ -1,0 +1,18 @@
+<web-app>
+<servlet>
+        <servlet-name>xmlauth</servlet-name>
+        <jsp-file>/xmlauth.jsp</jsp-file>
+        <init-param>
+            <param-name>un</param-name>
+            <param-value>cse</param-value>
+        </init-param>
+        <init-param>
+            <param-name>pwd</param-name>
+            <param-value>cseb</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xmlauth</servlet-name>
+        <url-pattern>/xmlauth.jsp</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,189 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+ * Global components
+ */
+body {
+	background-color: #f1f3f6;
+}
+label.checkbox_square input[type="checkbox"]:checked + span {
+	border: 1px #46BE8A solid;
+	transition: all 0.5 ease;
+	background-color: #46be8a;
+}
+label.checkbox_square input[type="checkbox"]:checked + span:before {
+	color: #FFF;
+	border-color: #46BE8A;
+}
+label.btn_radio input[type="radio"]:checked + span {
+	background: #46BE8A;
+	border: 0px;
+}
+input[type="checkbox"] + label.checkbox_slider {
+	background: #e4eaec;
+}
+input[type="checkbox"] + label.checkbox_slider span {
+	background: #FFF;
+}
+input[type="checkbox"]:checked + label.checkbox_slider {
+	-webkit-box-shadow: inset 0 0 0 36px #46be8a;
+	box-shadow: inset 0 0 0 36px #46be8a;
+}
+.dropdown-menu {
+	border: 0px;
+}
+.btn-action-wrapper {
+	background: #ffffff;
+}
+label.error {
+	color: #F00;
+}
+/*
+	* navbar
+	*/
+	
+.navbar-fixed-top {
+	/*background-color: #ffffff;*/
+	background-color:rgba(59, 78, 121, 0.8);
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	color: #000;
+	background-color: #fff;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+	color: #000;
+	background-color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a {
+	/*color: #9d9d9d;*/
+	color:#fff;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #f9f9f9;
+	color: #000;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #000;
+}
+/*
+ * Sidebar
+ */
+.sidebar {
+	background-color: #24282e;
+	/*margin-bottom: 30px;*/
+}
+.leftside-toggle-btn {
+	background-color: #262b36;
+}
+.leftside-toggle-btn div {
+	color: #fff;
+}
+.leftside-toggle-btn div:before {
+	border-color: rgba(0, 0, 0, 0) #4e5056 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+#side-menu {
+	background: #24282e;
+}
+#side-menu .nav li > a:hover {
+	background-color: #24282e;
+}
+#side-menu li {
+	border-bottom: 1px solid #505358;
+}
+#side-menu li.active {
+	background: #b44057 ;
+}
+#side-menu li.active .nav-second-level li {
+	background: #f9f9f9;
+}
+#side-menu li {
+	background: #24282e;
+}
+#side-menu li a {
+	color: #ffffff;
+}
+#side-menu.nav > li > a:hover, #side-menu.nav > li > a:focus {
+	background: #b44057;
+}
+#side-menu li .nav-second-level li a {
+	color: #000000;
+}
+#side-menu li.active a, #side-menu li:hover a {
+	color: #fff;
+}
+#side-menu li .nav-second-level li.active>a, #side-menu li .nav-second-level li a:hover {
+	color: #000000;
+	background-color: #f9f9f9;
+}
+#side-menu li > a::before {
+	background-color: #9fa8bc;
+}
+#side-menu ul li > a {
+	color: #4a4a4a;
+}
+#side-menu .nav.collapse li > a:hover::before, #side-menu .nav.collapse li > a:focus::before, #side-menu .nav.collapse li > a:active::before {
+	background-color: #657390;
+}
+#side-menu .nav.collapse li > a:hover, #side-menu .nav.collapse li > a:focus, #side-menu .nav.collapse li > a:active {
+	color: #464f63;
+}
+#side-menu .nav.collapse li.active > a::before {
+	background-color: #b44057;
+}
+#side-menu .nav.collapse li.active > a {
+	color: #107c3e;
+}
+.sidebar-collapsed #side-menu .nav.collapse li:first-child, .sidebar-collapsed #side-menu .nav.collapse li, .sidebar-collapsed #side-menu li .nav-second-level li.active > a, .sidebar-collapsed #side-menu li .nav-second-level li a:hover, .sidebar-collapsed .nav > li > a:focus, .sidebar-collapsed #side-menu .nav.collapse li > a:hover, .sidebar-collapsed #side-menu .nav.collapse li > a:focus, .sidebar-collapsed #side-menu .nav.collapse li > a:active, .sidebar.sidebar-collapsed #side-menu li .nav.nav-second-level li a {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	color: #fff;
+}
+/*
+ * Main
+ */
+.colorgraph {
+	height: 5px;
+	border-top: 0;
+	background: #c4e17f;
+	border-radius: 5px;
+	background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+	background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+	background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+	background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+div.tab-container {
+	background-color: #ffffff;
+}
+div.tab-menu div.list-group>a .fa {
+	color: #1d6894;
+}
+div.tab-menu div.list-group>a.active .fa {
+	background-color: #1d6894;
+	background-image: #1d6894;
+	color: #ffffff;
+}
+div.tab-content {
+	background-color: #ffffff;
+}
+.nav.nav-tabs li a {
+	background-color: #EFEFF1;
+	color: #000;
+}
+.nav.nav-tabs li:hover a, .nav.nav-tabs li.active a, .nav.nav-tabs li.active:hover a {
+	background-color: #FFF;
+	color: #24282e;
+}
+.nav-second-level {
+	background-color: #f9f9f9;
+}
+.panel-default > .panel-heading {
+	background-color: #DDE0E6;
+}
+label {
+	font-weight: normal;
+	color: #333333;
+}
+
+#side-menu li.active ul li.active a {
+	color:#b44057 !important;
+}

@@ -1,0 +1,56 @@
+Mar 01, 2017 9:08:39 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.7.0_79\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Dell\DW WLAN Card;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files (x86)\Skype\Phone\;C:\Users\sanjitha\AppData\Local\Microsoft\WindowsApps;;.
+Mar 01, 2017 9:08:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Mar 01, 2017 9:08:40 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Mar 01, 2017 9:08:40 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2679 ms
+Mar 01, 2017 9:08:41 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Mar 01, 2017 9:08:41 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.56
+Mar 01, 2017 9:08:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp\tomcat\webapps\docs
+Mar 01, 2017 9:08:42 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [154] milliseconds.
+Mar 01, 2017 9:08:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\xampp\tomcat\webapps\docs has finished in 1,374 ms
+Mar 01, 2017 9:08:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp\tomcat\webapps\examples
+Mar 01, 2017 9:08:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\xampp\tomcat\webapps\examples has finished in 1,720 ms
+Mar 01, 2017 9:08:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp\tomcat\webapps\host-manager
+Mar 01, 2017 9:08:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\xampp\tomcat\webapps\host-manager has finished in 116 ms
+Mar 01, 2017 9:08:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp\tomcat\webapps\manager
+Mar 01, 2017 9:08:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\xampp\tomcat\webapps\manager has finished in 185 ms
+Mar 01, 2017 9:08:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\xampp\tomcat\webapps\ROOT
+Mar 01, 2017 9:08:44 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\xampp\tomcat\webapps\ROOT has finished in 69 ms
+Mar 01, 2017 9:08:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Mar 01, 2017 9:08:44 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Mar 01, 2017 9:08:44 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 3817 ms
+Mar 01, 2017 9:08:49 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Mar 01, 2017 9:08:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Mar 01, 2017 9:08:50 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Mar 01, 2017 9:08:50 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Mar 01, 2017 9:08:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Mar 01, 2017 9:08:50 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Mar 01, 2017 9:08:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Mar 01, 2017 9:08:50 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
